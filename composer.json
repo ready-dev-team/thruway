@@ -1,6 +1,7 @@
 {
     "name": "ready-dev-team/thruway",
     "description": "Thruway WAMP router core",
+    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "WebSockets",
