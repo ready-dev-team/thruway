@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="Project">
+    <description>PHPCompatibility ruleset for my project.</description>
+    <config name="testVersion" value="8.1"/>
+    <rule ref="PHPCompatibility"/>
+    <exclude-pattern>/vendor/phpcompatibility/*</exclude-pattern>
+    <exclude-pattern>/vendor/phpunit/*</exclude-pattern>
+    <exclude-pattern>/vendor/squizlabs/*</exclude-pattern>
+    <exclude-pattern>/vendor/symfony/*</exclude-pattern>
+    <exclude-pattern>/vendor/react/*</exclude-pattern>
+    <exclude-pattern>/vendor/sebastian/*</exclude-pattern>
+</ruleset>
